@@ -1,0 +1,18 @@
+# Ignore all bazel-* symlinks. There is no full list since this can change
+# based on the name of the directory bazel is cloned into.
+/bazel-*
+
+# Ignore all output files
+out/
+
+# Ignore log directory
+logs/
+
+# Ignore AnyKernel3 directory
+AnyKernel3/
+
+# Ignore kernel directory
+kernel/
+
+# Ignore all shell scripts
+/*.sh
